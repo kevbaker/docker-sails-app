@@ -16,7 +16,7 @@ COPY .* /usr/src/app/
 ADD hello.js hello.js
 CMD ["node","hello.js"]
 
-CMD ["tree", "."]
+EXPOSE 1337
 
 CMD ["node","app.js"]
 
