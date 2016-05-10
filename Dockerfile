@@ -12,7 +12,7 @@ ADD . .
 
 EXPOSE 3000
 
-CMD ["node","app.js","--port","3000"]
+CMD ["npm","start"]
 
 # reference: https://nodesource.com/blog/dockerizing-your-nodejs-applications/
 # usage: 
