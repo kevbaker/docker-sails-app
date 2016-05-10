@@ -15,15 +15,14 @@ This is an example Sails app created to test dockerizing a node/express server.
 
 ## Issues
 
-* I can see the docker image started the sails application correctly since it renders the default ascii startup screen to my console.
-* I can not access the docker image from the port 3000 on either localhost or on private ip.
+* <del>I can see the docker image started the sails application correctly since it renders the default ascii startup screen to my console.
+* <del>I can not access the docker image from the port 3000 on either localhost or on private ip.
 
 
 ## Questions
 
-1. Is there a standard IP I can view this on?
-2. How do I consistently find this IP?
-3. How do I ssh into the image once it is running?
+1. <del>Is there a standard IP I can view this on?</del> new docker beta forwards to localhost on OSX
+2. <del>How do I ssh into the image once it is running?</del> localhost. Do not forget the port forwarding cmd on `docker run`
 
 ## Reference
 
