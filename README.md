@@ -23,6 +23,7 @@ This is an example Sails app created to test dockerizing a node/express server.
 
 1. <del>Is there a standard IP I can view this on?</del> new docker beta forwards to localhost on OSX
 2. <del>How do I ssh into the image once it is running?</del> localhost. Do not forget the port forwarding cmd on `docker run`
+3. How do I install this image into AWS ECS? I think I need a "Container Instances"
 
 ## Reference
 
