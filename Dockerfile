@@ -12,7 +12,11 @@ ADD . .
 
 EXPOSE 3000
 
-CMD ["npm","start"]
+## Start with npm
+#CMD ["npm","start"]
+
+## Start using PM2
+CMD pm2 start --no-daemon app.js
 
 # reference: https://nodesource.com/blog/dockerizing-your-nodejs-applications/
 # usage: 
