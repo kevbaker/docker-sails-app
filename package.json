@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kevbaker/sails-app.git"
+    "url": "git://github.com/kevbaker/docker-sails-app.git"
   },
   "author": "kevbaker",
-  "license": ""
+  "license": "MIT"
 }
