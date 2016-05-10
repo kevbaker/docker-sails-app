@@ -9,7 +9,7 @@ This is an example Sails app created to test dockerizing a node/express server.
 * Used [Dockerize your nodejs](https://nodesource.com/blog/dockerizing-your-nodejs-applications/) article as a reference. 
 * Created sails example app using the following command: `sails new sails-app`
 * Created `Dockerfile` based on the above reference.
-* Build docker image: `docker build -t "docker-sails-app" .`
+* Built docker image: `docker build -t "docker-sails-app" .`
 * Ran docker image: `docker run -it "docker-sails-app"`
 * All source files are commited to this git repository at https://github.com/kevbaker/docker-sails-app
 
