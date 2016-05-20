@@ -2,7 +2,7 @@ FROM nodesource/node:4.0
 
 RUN apt-get update
 RUN apt-get install tree
-RUN apt-get install vim
+RUN apt-get install tmux
 RUN npm install pm2 -g
 
 ADD package.json package.json
