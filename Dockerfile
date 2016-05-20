@@ -20,5 +20,5 @@ CMD pm2 start --no-daemon app.js
 
 # reference: https://nodesource.com/blog/dockerizing-your-nodejs-applications/
 # usage: 
-# docker build -t "docker-sails-app" .
+# docker build -t "docker-sails-app:0.1.0" .
 # docker run -it -p 3000:3000 "docker-sails-app"
