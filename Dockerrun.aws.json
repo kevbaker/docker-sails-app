@@ -11,9 +11,10 @@
   ],
   "Volumes": [
     {
-      "HostDirectory": "/var/app/mydb",
-      "ContainerDirectory": "/etc/mysql"
+      "HostDirectory": "/usr/src/settings",
+      "ContainerDirectory": "/usr/src/settings"
     }
   ],
-  "Logging": "/var/log/nginx"
+  "Logging": "/var/log/eb.log"
 }
+

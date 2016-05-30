@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: null
+    environment: docker-sails-app2-dev
     group_suffix: null
 global:
   application_name: docker-sails-app2
