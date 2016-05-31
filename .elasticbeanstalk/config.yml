@@ -1,9 +1,8 @@
 branch-defaults:
   master:
-    environment: docker-sails-app2-dev
-    group_suffix: null
+    environment: docker-sails-app-dev
 global:
-  application_name: docker-sails-app2
+  application_name: docker-sails-app
   default_ec2_keyname: aws-eb
   default_platform: Docker 1.9.1
   default_region: us-west-1
